@@ -5,7 +5,7 @@ print(titel)
 
 
 
-von = int(input("Bitte eine ZUfallszahlunterschranke festlegen"))
+von = int(input("Bitte eine Zufallszahlunterschranke festlegen"))
 bis = int(input(" Bitte die Zufallszahl Oberschranke festlegen"))
 zufallszahl=(random.randint(von , bis))
 text = "Bitte versuche meine Zahl zwischen",von, "und " ,bis, " zu erraten."
